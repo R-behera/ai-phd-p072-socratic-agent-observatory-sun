@@ -13,6 +13,49 @@
   "next_step": "Replace seed candidates with public scientific data and validate calibration before recommendations.",
   "professor": "Huan Sun",
   "project_family": "science",
+  "proposed_method": {
+    "algorithm_id": "P072-Sun-Nlp",
+    "algorithm_name": "SunConstraintNlpRouteEngine",
+    "core_mechanism": "prioritizes high-acquisition scientific candidates using score, uncertainty, and cost",
+    "decision_rule": "Rank seed cases by science-specific priority score with Sun-aligned focus term 'NLP'.",
+    "mean_priority_score": 0.1273,
+    "project_family": "science",
+    "top_cases": [
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S5",
+        "priority_score": 0.1477,
+        "signals": {
+          "cost_penalty": 0.6429,
+          "experiment_cost": 1.8,
+          "predicted_score": 0.77,
+          "uncertainty": 0.18
+        }
+      },
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S4",
+        "priority_score": 0.1342,
+        "signals": {
+          "cost_penalty": 0.6154,
+          "experiment_cost": 1.6,
+          "predicted_score": 0.69,
+          "uncertainty": 0.21
+        }
+      },
+      {
+        "action": "defer until uncertainty or cost improves",
+        "case_id": "S3",
+        "priority_score": 0.1236,
+        "signals": {
+          "cost_penalty": 0.5833,
+          "experiment_cost": 1.4,
+          "predicted_score": 0.61,
+          "uncertainty": 0.24
+        }
+      }
+    ]
+  },
   "research_area": "NLP, biomedical NLP, question answering, LLMs",
   "university": "Ohio State University",
   "value_add": "uncertainty-aware active-learning candidate ranker"

@@ -1,0 +1,13 @@
+{
+  "professor": "Huan Sun",
+  "university": "Ohio State University",
+  "program": "CSE PhD",
+  "research_area": "NLP, biomedical NLP, question answering, LLMs",
+  "representative_paper": "Open-domain question answering work; 2018; ACL",
+  "paper_link": "https://scholar.google.com/scholar?q=Open-domain+question+answering+work",
+  "project_family": "science",
+  "focus": "NLP",
+  "value_add_artifact": "uncertainty-aware active-learning candidate ranker",
+  "next_step": "Replace seed candidates with public scientific data and validate calibration before recommendations.",
+  "generated_for": "professor outreach value-add starter"
+}
